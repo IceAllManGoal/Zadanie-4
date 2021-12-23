@@ -1,0 +1,2489 @@
+html {
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+  max-width: 86.45%;
+  margin: 0 auto;
+}
+
+.header-height {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+}
+
+.social {
+    margin-right: auto;
+    padding-left: 3vh;
+}
+
+.navigator{
+    margin-right: auto;
+    font-family: Roboto;
+    font-size: 1rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 55.4vh;
+}
+
+.navigator ul li a{
+    text-decoration: none;
+}
+
+.usligi{
+    color:#AAAAAA;
+}
+
+.navigator ul{
+    list-style-type:none;
+}
+
+.o_nas{
+    color: #01678A;
+}
+
+.geo{
+    display: flex;
+    font-family: Arial;
+    font-size: 1.5rem;
+}
+
+.adress{
+    padding-left: 1vh;
+    color: #474747;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.calendar{
+    margin-left: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar p{
+    font-family: 'Panton';
+    font-size: 1.5rem;
+}
+
+.time{
+    color:#12354B;
+    padding-top:0.4vh;
+    padding-left: 1vh;
+}
+
+.days{
+    color: #909090;
+    padding-top:0.4vh;
+    padding-left: 1vh;
+}
+
+.phone{
+    display: flex;
+    padding-left: 3vh;
+}
+
+.phone_number{
+    padding-left: 0.6vh;
+    font-family: 'Panton Bold';
+    font-size: 1.5rem;
+}
+
+.btn{
+    margin-left: 2vh;
+    width: 25.7vh;
+    height: 5.7vh;
+    background-color: #38BCEA;
+    border-radius: 0.4vh;
+    border-width: 0px;
+}
+
+.btn a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.content{   
+    background-image: url("../img/Doctor.jpg");
+    width: 100%;
+    height: 94.6vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+.p1{
+    font-family: Arial;
+    font-size: 2rem;
+    color: #4E4E4E;
+    padding-top: 7vh;
+    padding-bottom: 2.6vh;
+}
+
+.p2{
+    font-family: 'Panton Bold';
+    font-size: 2.375rem;
+    color: #1A3444;
+    padding-bottom: 2.5vh;
+}
+
+.p3{
+    font-family: Arial;
+    font-size: 2rem;
+    padding-bottom: 5.5vh;
+}
+
+.btn-1{
+    width: 44.5vh;
+    height: 9.0vh;
+    background-color: #38BCEA;
+    border-radius: 0.4vh;
+    border-width: 0px;
+    margin-bottom: 8.5vh;
+}
+
+.btn-1 a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 1.06rem;
+    color: #ffffff;
+}
+
+.about_us{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 59.3vh;
+}
+
+.vector1{
+    display: flex;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(19px);
+}
+
+.vector1 p {
+    padding-top: 0.7vh;
+    padding-left: 2vh;
+    font-size: 1.125rem;
+}
+
+.vector2{
+    display: flex;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(19px);
+}
+
+.vector2 p {
+    padding-top: 0.7vh;
+    padding-left: 2vh;
+    font-size: 1.125rem;
+}
+
+.vector3{
+    display: flex;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(19px);
+}
+
+.vector3 p {
+    padding-top: 0.7vh;
+    padding-left: 2vh;
+    font-size: 1.125rem;
+}
+
+.services h1{
+    font-size: 2.375rem;
+    font-family: 'Panton Bold';
+    color: #12354B;
+    padding-bottom: 1.1vh;
+}
+
+.services p{
+    font-size: 18px;
+    font-family: Arial;
+    color: #737373;
+}
+
+.grid_columns{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 9vh;
+    grid-gap: 30px;
+}
+
+.grid_space{
+    grid-column: 2/2;
+}
+
+.grid_services{
+    display: block;
+    text-decoration: none;
+    background: #FBFBFB;
+    width:  30vh;
+    height: 21.7vh;
+    border-radius: 5px;
+}
+
+.grid_services p {
+    font-family: "Panton Bold";
+    color: #454545;
+    text-align: center;
+}
+
+.service_img{
+    filter: invert(64%) sepia(71%) saturate(855%) hue-rotate(162deg) brightness(94%) contrast(94%);
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+    height: 62px;
+}
+
+.grid_services:hover{
+    background: #38BCEA;
+}
+
+.grid_services:hover .hover_down{
+    display: block;
+}
+
+.grid_services:hover img{
+    filter: invert(93%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(109%) contrast(101%);
+}
+
+.hover_down{
+    height: 50px;
+    background: #FCFCFC;
+    border-radius: 5px;
+    display: none;
+}
+
+.hover_down img{
+    display: block;
+    margin: 10px auto;
+}
+
+.grid_services {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.services_down {
+    position: fixed;
+    background:#FBFBFB;
+    z-index: 999;
+    top: 470px;
+    left: 80px;
+    width: 1300px;
+    display: none;
+}
+
+.grid_services:hover .services_down {
+    display: block;
+}
+
+.block {
+    margin-top: 25px;
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+    background-color: #FBFBFB;
+    color: #000000;
+}
+
+.block h3{
+    font-family: Arial;
+}
+
+.block p {
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.block button{
+    background: #38BCEA;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.2);
+    border-style: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 90px;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.care_patient{
+    background-color: #FBFBFB;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.care_patient {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px;
+    grid-gap: 20px;
+}
+
+.care_patient h1{
+    grid-column: 1/4;
+    font-family: "Panton Bold";
+}
+
+.table h1{
+    color: #38BCEA;
+}
+
+.care_patient .table{
+    padding-left: 20px;
+}
+
+.table h2{
+    font-family: "Panton Bold";
+}
+
+.table p{
+    font-family: Arial;
+}
+
+.sale{
+    height: 400px;
+    background: linear-gradient(84.27deg, #E6F2FF 0%, #FAF1ED 100%);
+    margin-top: 800px;
+}
+
+.rectangle{
+    height: 400px;
+    background-image: url(../img/doctor.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 26.3%;
+}
+
+.rectangle h1{
+    font-family: "Panton Bold";
+    padding-top: 3.6vh;
+    padding-bottom: 5.45vh;
+}
+
+.rectangle h3{
+    font-family: Arial;
+    line-height: 31,32px;
+    padding-bottom: 5.2vh;
+}
+
+.rectangle h3 span{
+    font-family: "Roboto";
+    color: #0079FF;
+}
+
+.edit_phone::placeholder{
+    text-align: left;
+    padding-left: 15px;
+    color: #BBBBBB;
+    font-family: Arial;
+    font-size: 20px;
+}
+.edit_phone{
+    width: 28.2vh;
+    height: 7.8vh;
+    border-radius: 5px;
+    border-color: #FEFEFE;
+    border-style: none;
+    margin-right: 2.8vh;
+}
+
+.rectangle button{
+    width: 300px;
+    height: 7.8vh;
+    border-style: none;
+    background-color: #38BCEA;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 4.5vh;
+}
+
+.rectangle h4{
+    font-family: Arial;
+    font-weight: 400 normal;
+    font-size: 14px;
+    color: #4E4E4E;
+}
+
+.rectangle h4 a{
+    color: #4E4E4E;
+}
+
+.dentist{
+    height: 700px;
+    background-image: url(../img/dentist.jpg);
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+    background-size: 53.3%;
+}
+
+.dentist button{
+    margin-top: 26.1vh;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: none;
+    border: 2px solid #2E3A59;
+    color: #2E3A59;
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.dentist h1{
+    padding-top: 14.1vh;
+    padding-bottom: 1.9vh;
+    color: #12354B;
+    font-family: "Panton Bold";
+    font-size: 36px;
+    line-height: 27,6px;
+}
+
+.dentist h3{
+    color: #737373;
+    font-family: Arial;
+    font-weight: 400 normal;
+    padding-bottom: 8.6vh;
+}
+
+.dentist .logo{
+    display: flex;
+    padding-bottom: 6px;
+}
+
+.dentist .logo p{
+    padding-top: 15px;
+    padding-left: 9px;
+    font-family: "Roboto";
+    font-weight: normal 300;
+    color: #1A3444;
+}
+
+.about_p{
+    font-family: Arial;
+    font-weight: normal 400;
+    line-height: 21px;
+    font-size: 16px;
+    padding-bottom: 59px;
+}
+
+.list_services{
+    width: 400px;
+    font-family: Arial;
+    font-weight: 400 normal;
+    font-size: 14px;
+}
+
+.list_services_1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 32.5px;
+}
+
+.list_services_2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 59px;
+}
+
+.p{
+    font-family: Arial;
+    font-weight: normal 400;
+    color: #242424;
+    font-size: 15px;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.sponsor1{
+    height: 60px;
+}
+
+.sponsor2{
+    height: 60px;
+}
+
+.sponsor3{
+    padding-left: 50px;
+    height: 60px;
+}
+
+.treatment_with_us{
+    padding-bottom: 250px;
+}
+
+.specialists h1{
+    color: #12354B;
+    font-family: "Panton Bold";
+    padding-bottom: 14px;
+}
+
+.specialists p{
+    font-family: Arial;
+    color: #737373;
+    line-height: 25.6px;
+    padding-bottom: 73px;
+}
+
+.persons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 59.5px;
+}
+
+.specialist h2{
+    font-family: "Panton Bold";
+    font-weight: 700 normal;
+    padding-left: 25px;
+    padding-bottom: 14px;
+}
+
+.specialist{
+    height: 450px;
+    width: 100%;
+    background: url(/img/Rectangle\ 131.png);
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    
+}
+
+.woman{
+    background: linear-gradient(255.02deg, #F7F8FA -0.59%, #EFF0F4 100%);
+    box-shadow: 0px 13px 50px rgba(192, 192, 192, 0.2);
+    border-radius: 4px;
+    background-repeat: no-repeat;
+}
+
+.hhh{
+    transform: translateY(-400px);
+}
+
+.hh{
+    transform: translateX(400px) translateY(15px);
+}
+
+.specialist p {
+    font-family: Arial;
+    color: #3E3E3E;
+    padding-left: 25px;
+}
+
+.man{
+    transform: translateX(160px);
+}
+
+.sertificates{
+    padding-top: 185px;
+    padding-bottom: 223px;
+}
+
+.sertificates h1{
+    color: #12354B;
+    font-family: "Panton Bold";
+    padding-bottom: 93px;
+}
+
+.list_sertificates{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_sertificates img{
+    height: 28%;
+    width: 28%;
+}
+
+.list_sertificates button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: none;
+    border: 2px solid #2E3A59;
+    color: #2E3A59;
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+}
+
+.rectangle_consultation{
+    background-image: url(/img/lithuanian-woman-dentist-holding-tools-isolated-making-phone-gesture-call-me-back-sign_1-removebg\ 1.png);
+    height: 400px;
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+    background-size: 30.3%;
+}
+.consultation{
+    background: linear-gradient(84.27deg, #E6F2FF 0%, #FAF1ED 100%);
+    width: 100%;
+    height: 400px;
+}
+
+.online h1{
+    padding-top: 62.5px;
+    padding-bottom: 43.52px;
+    font-family: "Panton Bold";
+}
+
+.rectangle_consultation h1{
+    font-family: "Panton Bold";
+    padding-top: 3.6vh;
+    padding-bottom: 5.45vh;
+}
+
+.rectangle_consultation h3{
+    font-family: Arial;
+    line-height: 31,32px;
+    padding-bottom: 5.2vh;
+}
+
+.rectangle_consultation h3 span{
+    font-family: "Roboto";
+    color: #0079FF;
+}
+
+.edit_phone::placeholder{
+    text-align: left;
+    padding-left: 15px;
+    color: #BBBBBB;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.edit_phone{
+    width: 28.2vh;
+    height: 7.8vh;
+    border-radius: 5px;
+    border-color: #FEFEFE;
+    border-style: none;
+    margin-right: 2.8vh;
+}
+
+.rectangle_consultation button{
+    width: 300px;
+    height: 7.8vh;
+    border-style: none;
+    background-color: #38BCEA;
+    font-family: Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 4.5vh;
+}
+
+.rectangle_consultation h4{
+    font-family: Arial;
+    font-weight: 400 normal;
+    font-size: 14px;
+    color: #4E4E4E;
+}
+
+.rectangle_consultation h4 a{
+    color: #4E4E4E;
+}
+
+footer{
+    background: #F2F3F5;
+    height: 135px;
+    width: 100%;
+}
+
+.footer{
+    padding-top: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p{
+    width: 465px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 400 normal;
+}
+
+.footer h4{
+    width: 252px;
+    font-family: Arial;
+    font-weight: 400 normal;
+}
+
+.coolicon {
+    margin-left: 19px;
+}
+
+.coolicon:first-child{
+    margin-left: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 4px;
+    }
+
+    .wrapper{
+        width: 86.45%;
+        margin: 0 auto;
+    }
+
+    .header-height {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 20vh;
+        align-items: center;
+    }
+
+    .geo{
+        display: flex;
+        font-family: Arial;
+        font-size: 1.5rem;
+    }
+
+    .calendar p{
+        font-family: 'Panton';
+        font-size: 1.5rem;
+    }
+
+    .phone_number{
+        padding-left: 0.6vh;
+        font-family: 'Panton Bold';
+        font-size: 1.5rem;
+    }
+
+    .btn a{
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .p1{
+        font-family: Arial;
+        font-size: 2rem;
+        color: #4E4E4E;
+        padding-top: 7vh;
+        padding-bottom: 2.6vh;
+    }
+    
+    .p2{
+        font-family: 'Panton Bold';
+        font-size: 2.375rem;
+        color: #1A3444;
+        padding-bottom: 2.5vh;
+    }
+    
+    .p3{
+        font-family: Arial;
+        font-size: 1rem;
+        padding-bottom: 5.5vh;
+    }
+
+    .btn-1 a {
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .vector1 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .vector2 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .vector3 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .social {
+        margin-right: auto;
+        padding-left: 1vh;
+    }
+
+    .logo img{
+        width: 3.6vh;
+    }
+
+    .social img{
+        width: 1.12vh;
+    }
+
+    .geo img{
+        width: 1.68vh;
+    }
+
+    .usligi{
+        font-size: 1.2rem;
+    }
+
+    .o_nas{
+        font-size: 1.2rem;
+    }
+
+    .calendar img{
+        width: 1.68vh;
+    }
+
+    .phone img{
+        width: 1.68vh;
+    }
+
+    .phone p{
+        padding-top: 1vh;
+    }
+
+    .services h1{
+        font-size: 3.375rem;
+    }
+
+    .services p{
+        font-size: 2.125rem;
+    }
+
+    .grid_services img{
+        width: 4.48vh;
+        height: 4.48vh;
+    }
+
+    .grid_columns{
+        grid-gap: 0.04vh;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .care_patient{
+        padding-top: 16.8vh;
+        grid-template-rows: 7vh;
+    }
+
+    .care_patient h1{
+        font-size: 3rem;
+    }
+
+    .care_patient h2{
+        font-size: 2.5rem;
+    }
+
+    .sale{
+        margin-top: 82vh;
+        height: 47vh;
+    }
+
+    .rectangle{
+        height: 57vh;
+    }
+
+    .edit_phone::placeholder{
+        font-size: 2rem;
+    }
+
+    .rectangle button{
+        width: 42vh;
+        font-size: 1.125rem;
+    }
+
+    .rectangle h4{
+        font-size: 0.875rem;
+    }
+
+    .treatment_with_us{
+        padding-bottom: 35vh;
+    }
+
+    .dentist{
+        height: 68vh;
+    }
+
+    .dentist h1{
+        font-size: 3.25rem;
+    }
+
+    .dentist .logo p{
+        padding-left: 0.7vh;
+        padding-top: 0.7vh;
+        font-size: 2rem;
+    }
+
+    .about_p{
+        font-size: 2rem;
+        line-height: 0.98vh;
+        padding-bottom: 8.2vh;
+    }
+
+    .dentist h3{
+        font-size: 2rem;
+    }
+
+    .list_services{
+        width: 56vh;
+    }
+
+    .list_services p{
+        font-size: 2rem;
+    }
+
+    .list_services_1{
+        padding:0;
+        padding-bottom: 1.4vh;
+    }
+
+    .list_services_2{
+        padding:0;
+        padding-bottom: 8.2vh;
+    }
+
+    .p{
+        font-size: 2rem;
+    }
+
+    .partners{
+        width: 63vh;
+    }
+
+    .partners img{
+        height: 8.4vh;
+    }
+
+    .dentist button{
+        width: 7vh;
+        height: 7vh;
+        font-size: 3.25rem;
+        margin-top: 18.1vh;
+    }
+
+    .specialists h1{
+        font-size: 3rem;
+        padding-bottom: 1.9vh;
+    }
+
+    .specialists{
+        font-size: 2rem;
+        padding-bottom: 10.2vh;
+    }
+
+    .persons{
+        grid-gap: 8.3vh;
+        grid-template-columns: 28vh;
+        grid-template-rows: 1fr;
+    }
+
+    .specialist{
+        height: 63vh;
+        width: 100%;
+    }
+
+    .specialist img{
+        height: 66vh;
+        background-size:100%;
+    }
+
+    .woman{
+        height: 63vh;
+        width: 100%;
+    }
+
+    .hhh{
+        transform: translateY(-170px);
+    }
+    
+    .hh{
+        transform:translateX(210px) translateY(-9px);
+    }
+
+    .man{
+        transform: translateX(160px);
+    }
+
+    .sertificates{
+        padding-bottom: 31.2vh;
+        padding-top: 25.9vh;
+    }
+
+    .sertificates h1{
+        font-size: 3rem;
+    }
+
+    .list_sertificates button {
+        width: 7vh;
+        height: 7vh;
+        font-size: 3.25rem;
+    }
+
+    .consultation{
+        height: 59vh;
+    }
+
+    .rectangle_consultation{
+        height: 59vh;
+    }
+    
+    .rectangle_consultation button{
+        width: 42vh;
+        font-size: 2.5rem;
+    }
+
+    .rectangle_consultation h4{
+        font-size: 2.5rem;
+    }
+
+    .rectangle_consultation h3{
+        font-size: 1.9rem;
+    }
+
+    .rectangle_consultation h1{
+        font-size: 3.5rem;
+    }
+
+    footer{
+        height: 18.9vh;
+    }
+
+    .footer{
+        padding-top: 8.5vh;
+    }
+
+    .coolicon{
+        margin-left: 2vh;
+    }
+
+    .footer p{
+        width: 65.1vh;
+    }
+
+    .footer h4{
+        width: 35.2vh;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 4px;
+    }
+
+    .wrapper{
+        width: 86.45%;
+        margin: 0 auto;
+    }
+
+    .header-height {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 20vh;
+        align-items: center;
+    }
+
+    .geo{
+        display: flex;
+        font-family: Arial;
+        font-size: 1.5rem;
+    }
+
+    .calendar p{
+        font-family: 'Panton';
+        font-size: 1.5rem;
+    }
+
+    .phone_number{
+        padding-left: 0.6vh;
+        font-family: 'Panton Bold';
+        font-size: 1.5rem;
+    }
+
+    .btn a{
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .p1{
+        font-family: Arial;
+        font-size: 2rem;
+        color: #4E4E4E;
+        padding-top: 7vh;
+        padding-bottom: 2.6vh;
+    }
+    
+    .p2{
+        font-family: 'Panton Bold';
+        font-size: 2.375rem;
+        color: #1A3444;
+        padding-bottom: 2.5vh;
+    }
+    
+    .p3{
+        font-family: Arial;
+        font-size: 1rem;
+        padding-bottom: 5.5vh;
+    }
+
+    .btn-1 a {
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .vector1 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .vector2 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .vector3 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .social {
+        margin-right: auto;
+        padding-left: 1vh;
+    }
+
+    .logo img{
+        width: 3.6vh;
+    }
+
+    .social img{
+        width: 1.12vh;
+    }
+
+    .geo img{
+        width: 1.68vh;
+    }
+
+    .usligi{
+        font-size: 1.2rem;
+    }
+
+    .o_nas{
+        font-size: 1.2rem;
+    }
+
+    .calendar img{
+        width: 1.68vh;
+    }
+
+    .phone img{
+        width: 1.68vh;
+    }
+
+    .phone p{
+        padding-top: 1vh;
+    }
+
+    .services h1{
+        font-size: 3.375rem;
+    }
+
+    .services p{
+        font-size: 2.125rem;
+    }
+
+    .grid_services img{
+        width: 4.48vh;
+        height: 4.48vh;
+    }
+
+    .grid_columns{
+        grid-gap: 0.04vh;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .care_patient{
+        padding-top: 16.8vh;
+        grid-template-rows: 7vh;
+    }
+
+    .care_patient h1{
+        font-size: 3rem;
+    }
+
+    .care_patient h2{
+        font-size: 2.5rem;
+    }
+
+    .sale{
+        margin-top: 82vh;
+        height: 47vh;
+    }
+
+    .rectangle{
+        height: 57vh;
+    }
+
+    .edit_phone::placeholder{
+        font-size: 2rem;
+    }
+
+    .rectangle button{
+        width: 42vh;
+        font-size: 1.125rem;
+    }
+
+    .rectangle h4{
+        font-size: 0.875rem;
+    }
+
+    .treatment_with_us{
+        padding-bottom: 35vh;
+    }
+
+    .dentist{
+        height: 68vh;
+    }
+
+    .dentist h1{
+        font-size: 3.25rem;
+    }
+
+    .dentist .logo p{
+        padding-left: 0.7vh;
+        padding-top: 0.7vh;
+        font-size: 2rem;
+    }
+
+    .about_p{
+        font-size: 2rem;
+        line-height: 0.98vh;
+        padding-bottom: 8.2vh;
+    }
+
+    .dentist h3{
+        font-size: 2rem;
+    }
+
+    .list_services{
+        width: 56vh;
+    }
+
+    .list_services p{
+        font-size: 2rem;
+    }
+
+    .list_services_1{
+        padding:0;
+        padding-bottom: 1.4vh;
+    }
+
+    .list_services_2{
+        padding:0;
+        padding-bottom: 8.2vh;
+    }
+
+    .p{
+        font-size: 2rem;
+    }
+
+    .partners{
+        width: 63vh;
+    }
+
+    .partners img{
+        height: 8.4vh;
+    }
+
+    .dentist button{
+        width: 7vh;
+        height: 7vh;
+        font-size: 3.25rem;
+        margin-top: 18.1vh;
+    }
+
+    .specialists h1{
+        font-size: 3rem;
+        padding-bottom: 1.9vh;
+    }
+
+    .specialists{
+        font-size: 2rem;
+        padding-bottom: 10.2vh;
+    }
+
+    .persons{
+        grid-gap: 8.3vh;
+        grid-template-columns: 28vh;
+        grid-template-rows: 1fr;
+    }
+
+    .specialist{
+        height: 63vh;
+        width: 100%;
+    }
+
+    .specialist img{
+        height: 66vh;
+        background-size:100%;
+    }
+
+    .woman{
+        height: 63vh;
+        width: 100%;
+    }
+
+    .hhh{
+        transform: translateY(-170px);
+    }
+    
+    .hh{
+        transform:translateX(210px) translateY(-9px);
+    }
+
+    .man{
+        transform: translateX(160px);
+    }
+
+    .sertificates{
+        padding-bottom: 31.2vh;
+        padding-top: 25.9vh;
+    }
+
+    .sertificates h1{
+        font-size: 3rem;
+    }
+
+    .list_sertificates button {
+        width: 7vh;
+        height: 7vh;
+        font-size: 3.25rem;
+    }
+
+    .consultation{
+        height: 59vh;
+    }
+
+    .rectangle_consultation{
+        height: 59vh;
+    }
+    
+    .rectangle_consultation button{
+        width: 42vh;
+        font-size: 2.5rem;
+    }
+
+    .rectangle_consultation h4{
+        font-size: 2.5rem;
+    }
+
+    .rectangle_consultation h3{
+        font-size: 1.9rem;
+    }
+
+    .rectangle_consultation h1{
+        font-size: 3.5rem;
+    }
+
+    footer{
+        height: 18.9vh;
+    }
+
+    .footer{
+        padding-top: 8.5vh;
+    }
+
+    .coolicon{
+        margin-left: 2vh;
+    }
+
+    .footer p{
+        width: 65.1vh;
+    }
+
+    .footer h4{
+        width: 35.2vh;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 5px;
+    }
+
+    .wrapper{
+        width: 86.45%;
+        margin: 0 auto;
+    }
+
+    .header-height {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 20vh;
+        align-items: center;
+    }
+
+    .geo{
+        display: flex;
+        font-family: Arial;
+        font-size: 1.5rem;
+    }
+
+    .calendar p{
+        font-family: 'Panton';
+        font-size: 1.5rem;
+    }
+
+    .phone_number{
+        padding-left: 0.6vh;
+        font-family: 'Panton Bold';
+        font-size: 1.5rem;
+    }
+
+    .btn a{
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .p1{
+        font-family: Arial;
+        font-size: 2rem;
+        color: #4E4E4E;
+        padding-top: 7vh;
+        padding-bottom: 2.6vh;
+    }
+    
+    .p2{
+        font-family: 'Panton Bold';
+        font-size: 2.375rem;
+        color: #1A3444;
+        padding-bottom: 2.5vh;
+    }
+    
+    .p3{
+        font-family: Arial;
+        font-size: 1rem;
+        padding-bottom: 5.5vh;
+    }
+
+    .btn-1 a {
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .vector1 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .vector2 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .vector3 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .social {
+        margin-right: auto;
+        padding-left: 1vh;
+    }
+
+    .logo img{
+        width: 3.6vh;
+    }
+
+    .social img{
+        width: 1.12vh;
+    }
+
+    .geo img{
+        width: 1.68vh;
+    }
+
+    .usligi{
+        font-size: 1.2rem;
+    }
+
+    .o_nas{
+        font-size: 1.2rem;
+    }
+
+    .calendar img{
+        width: 1.68vh;
+    }
+
+    .phone img{
+        width: 1.68vh;
+    }
+
+    .phone p{
+        padding-top: 1vh;
+    }
+
+    .services h1{
+        font-size: 3.375rem;
+    }
+
+    .services p{
+        font-size: 2.125rem;
+    }
+
+    .grid_services img{
+        width: 4.48vh;
+        height: 4.48vh;
+    }
+
+    .grid_columns{
+        grid-gap: 0.04vh;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .care_patient{
+        padding-top: 16.8vh;
+        grid-template-rows: 7vh;
+    }
+
+    .care_patient h1{
+        font-size: 3rem;
+    }
+
+    .care_patient h2{
+        font-size: 2.5rem;
+    }
+
+    .sale{
+        margin-top: 82vh;
+        height: 47vh;
+    }
+
+    .rectangle{
+        height: 57vh;
+    }
+
+    .edit_phone::placeholder{
+        font-size: 2rem;
+    }
+
+    .rectangle button{
+        width: 42vh;
+        font-size: 1.125rem;
+    }
+
+    .rectangle h4{
+        font-size: 0.875rem;
+    }
+
+    .treatment_with_us{
+        padding-bottom: 35vh;
+    }
+
+    .dentist{
+        height: 68vh;
+    }
+
+    .dentist h1{
+        font-size: 3.25rem;
+    }
+
+    .dentist .logo p{
+        padding-left: 0.7vh;
+        padding-top: 0.7vh;
+        font-size: 2rem;
+    }
+
+    .about_p{
+        font-size: 2rem;
+        line-height: 0.98vh;
+        padding-bottom: 8.2vh;
+    }
+
+    .dentist h3{
+        font-size: 2rem;
+    }
+
+    .list_services{
+        width: 56vh;
+    }
+
+    .list_services p{
+        font-size: 2rem;
+    }
+
+    .list_services_1{
+        padding:0;
+        padding-bottom: 1.4vh;
+    }
+
+    .list_services_2{
+        padding:0;
+        padding-bottom: 8.2vh;
+    }
+
+    .p{
+        font-size: 2rem;
+    }
+
+    .partners{
+        width: 63vh;
+    }
+
+    .partners img{
+        height: 8.4vh;
+    }
+
+    .dentist button{
+        width: 7vh;
+        height: 7vh;
+        font-size: 3.25rem;
+        margin-top: 18.1vh;
+    }
+
+    .specialists h1{
+        font-size: 3rem;
+        padding-bottom: 1.9vh;
+    }
+
+    .specialists{
+        font-size: 2rem;
+        padding-bottom: 10.2vh;
+    }
+
+    .persons{
+        grid-gap: 8.3vh;
+        grid-template-columns: 28vh;
+        grid-template-rows: 1fr;
+    }
+
+    .specialist{
+        height: 63vh;
+        width: 100%;
+    }
+
+    .specialist img{
+        height: 66vh;
+        background-size:100%;
+    }
+
+    .woman{
+        height: 63vh;
+        width: 100%;
+    }
+
+    .hhh{
+        transform: translateY(-170px);
+    }
+    
+    .hh{
+        transform:translateX(210px) translateY(-9px);
+    }
+
+    .man{
+        transform: translateX(160px);
+    }
+
+    .sertificates{
+        padding-bottom: 31.2vh;
+        padding-top: 25.9vh;
+    }
+
+    .sertificates h1{
+        font-size: 3rem;
+    }
+
+    .list_sertificates button {
+        width: 7vh;
+        height: 7vh;
+        font-size: 3.25rem;
+    }
+
+    .consultation{
+        height: 59vh;
+    }
+
+    .rectangle_consultation{
+        height: 59vh;
+    }
+    
+    .rectangle_consultation button{
+        width: 42vh;
+        font-size: 2.5rem;
+    }
+
+    .rectangle_consultation h4{
+        font-size: 2.5rem;
+    }
+
+    .rectangle_consultation h3{
+        font-size: 1.9rem;
+    }
+
+    .rectangle_consultation h1{
+        font-size: 3.5rem;
+    }
+
+    footer{
+        height: 18.9vh;
+    }
+
+    .footer{
+        padding-top: 8.5vh;
+    }
+
+    .coolicon{
+        margin-left: 2vh;
+    }
+
+    .footer p{
+        width: 65.1vh;
+    }
+
+    .footer h4{
+        width: 35.2vh;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    html {
+        font-size: 9px;
+    }
+
+    .wrapper{
+        width: 86.45%;
+        margin: 0 auto;
+    }
+
+    .header-height {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 20vh;
+        align-items: center;
+    }
+
+    .geo{
+        display: flex;
+        font-family: Arial;
+        font-size: 1.5rem;
+    }
+
+    .calendar p{
+        font-family: 'Panton';
+        font-size: 1.5rem;
+    }
+
+    .phone_number{
+        padding-left: 0.6vh;
+        font-family: 'Panton Bold';
+        font-size: 1.5rem;
+    }
+
+    .btn a{
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .p1{
+        font-family: Arial;
+        font-size: 2rem;
+        color: #4E4E4E;
+        padding-top: 7vh;
+        padding-bottom: 2.6vh;
+    }
+    
+    .p2{
+        font-family: 'Panton Bold';
+        font-size: 2.375rem;
+        color: #1A3444;
+        padding-bottom: 2.5vh;
+    }
+    
+    .p3{
+        font-family: Arial;
+        font-size: 1rem;
+        padding-bottom: 5.5vh;
+    }
+
+    .btn-1 a {
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .vector1 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .vector2 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .vector3 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .social {
+        margin-right: auto;
+        padding-left: 1vh;
+    }
+
+    .logo img{
+        width: 6.6vh;
+    }
+
+    .social img{
+        width: 3.12vh;
+    }
+
+    .geo img{
+        width: 1.68vh;
+    }
+
+    .usligi{
+        font-size: 1.2rem;
+    }
+
+    .o_nas{
+        font-size: 1.2rem;
+    }
+
+    .calendar img{
+        width: 1.68vh;
+    }
+
+    .phone img{
+        width: 1.68vh;
+    }
+
+    .phone p{
+        padding-top: 1vh;
+    }
+
+    .services h1{
+        font-size: 3.375rem;
+    }
+
+    .services p{
+        font-size: 2.125rem;
+    }
+
+    .grid_services img{
+        width: 4.48vh;
+        height: 4.48vh;
+    }
+
+    .grid_columns{
+        grid-gap: 0.04vh;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .care_patient{
+        padding-top: 16.8vh;
+        grid-template-rows: 7vh;
+    }
+
+    .care_patient h1{
+        font-size: 3rem;
+    }
+
+    .care_patient h2{
+        font-size: 2.5rem;
+    }
+
+    .sale{
+        margin-top: 122vh;
+        height: 57vh;
+        margin-bottom: 20vh;
+    }
+
+    .rectangle{
+        height: 57vh;
+    }
+
+    .edit_phone::placeholder{
+        font-size: 2rem;
+    }
+
+    .rectangle button{
+        width: 42vh;
+        font-size: 1.125rem;
+    }
+
+    .rectangle h4{
+        font-size: 0.875rem;
+    }
+
+    .treatment_with_us{
+        padding-bottom: 55vh;
+    }
+
+    .dentist{
+        height: 94vh;
+    }
+
+    .dentist h1{
+        font-size: 3.25rem;
+    }
+
+    .dentist .logo p{
+        padding-left: 0.7vh;
+        padding-top: 0.7vh;
+        font-size: 2rem;
+    }
+
+    .about_p{
+        font-size: 2rem;
+        line-height: 4.98vh;
+        padding-bottom: 8.2vh;
+    }
+
+    .dentist h3{
+        font-size: 2rem;
+    }
+
+    .list_services{
+        width: 56vh;
+    }
+
+    .list_services p{
+        font-size: 2rem;
+    }
+
+    .list_services_1{
+        padding:0;
+        padding-bottom: 1.4vh;
+    }
+
+    .list_services_2{
+        padding:0;
+        padding-bottom: 8.2vh;
+    }
+
+    .p{
+        font-size: 2rem;
+    }
+
+    .partners{
+        width: 63vh;
+    }
+
+    .partners img{
+        height: 8.4vh;
+    }
+
+    .dentist button{
+        width: 7vh;
+        height: 7vh;
+        font-size: 3.25rem;
+        margin-top: 18.1vh;
+    }
+
+    .specialists h1{
+        font-size: 3rem;
+        padding-bottom: 1.9vh;
+    }
+
+    .specialists{
+        font-size: 2rem;
+        padding-bottom: 10.2vh;
+    }
+
+    .persons{
+        grid-gap: 8.3vh;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .specialist{
+        height: 63vh;
+        width: 100%;
+    }
+
+    .specialist img{
+        height: 66vh;
+        background-size:100%;
+    }
+
+    .woman{
+        height: 63vh;
+        width: 100%;
+    }
+
+    .hhh{
+        transform: translateY(-270px);
+    }
+    
+    .hh{
+        transform:translateX(210px) translateY(-13px);
+    }
+
+    .man{
+        transform: translateX(160px);
+    }
+
+    .sertificates{
+        padding-bottom: 31.2vh;
+        padding-top: 25.9vh;
+    }
+
+    .sertificates h1{
+        font-size: 3rem;
+    }
+
+    .list_sertificates button {
+        width: 7vh;
+        height: 7vh;
+        font-size: 3.25rem;
+    }
+
+    .consultation{
+        height: 79vh;
+    }
+
+    .rectangle_consultation{
+        height: 79vh;
+    }
+    
+    .rectangle_consultation button{
+        width: 42vh;
+        font-size: 2.5rem;
+    }
+
+    .rectangle_consultation h4{
+        font-size: 2.5rem;
+    }
+
+    .rectangle_consultation h3{
+        font-size: 1.9rem;
+    }
+
+    .rectangle_consultation h1{
+        font-size: 3.5rem;
+    }
+
+    footer{
+        height: 18.9vh;
+    }
+
+    .footer{
+        padding-top: 8.5vh;
+    }
+
+    .coolicon{
+        margin-left: 2vh;
+    }
+
+    .footer p{
+        width: 65.1vh;
+    }
+
+    .footer h4{
+        width: 35.2vh;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    html {
+        font-size: 9px;
+    }
+
+    .wrapper{
+        width: 86.45%;
+        margin: 0 auto;
+    }
+
+    .header-height {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 20vh;
+        align-items: center;
+    }
+
+    .geo{
+        display: flex;
+        font-family: Arial;
+        font-size: 1.5rem;
+    }
+
+    .calendar p{
+        font-family: 'Panton';
+        font-size: 1.5rem;
+    }
+
+    .phone_number{
+        padding-left: 0.6vh;
+        font-family: 'Panton Bold';
+        font-size: 1.5rem;
+    }
+
+    .btn a{
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .p1{
+        font-family: Arial;
+        font-size: 2rem;
+        color: #4E4E4E;
+        padding-top: 7vh;
+        padding-bottom: 2.6vh;
+    }
+    
+    .p2{
+        font-family: 'Panton Bold';
+        font-size: 2.375rem;
+        color: #1A3444;
+        padding-bottom: 2.5vh;
+    }
+    
+    .p3{
+        font-family: Arial;
+        font-size: 1rem;
+        padding-bottom: 5.5vh;
+    }
+
+    .btn-1 a {
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .vector1 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .vector2 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .vector3 p {
+        padding-top: 0.7vh;
+        padding-left: 2vh;
+        font-size: 2rem;
+    }
+
+    .social {
+        margin-right: auto;
+        padding-left: 1vh;
+    }
+
+    .logo img{
+        width: 6.6vh;
+    }
+
+    .social img{
+        width: 3.12vh;
+    }
+
+    .geo img{
+        width: 1.68vh;
+    }
+
+    .usligi{
+        font-size: 1.2rem;
+    }
+
+    .o_nas{
+        font-size: 1.2rem;
+    }
+
+    .calendar img{
+        width: 1.68vh;
+    }
+
+    .phone img{
+        width: 1.68vh;
+    }
+
+    .phone p{
+        padding-top: 1vh;
+    }
+
+    .services h1{
+        font-size: 3.375rem;
+    }
+
+    .services p{
+        font-size: 2.125rem;
+    }
+
+    .grid_services img{
+        width: 4.48vh;
+        height: 4.48vh;
+    }
+
+    .grid_columns{
+        grid-gap: 0.04vh;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .care_patient{
+        padding-top: 16.8vh;
+        grid-template-rows: 7vh;
+    }
+
+    .care_patient h1{
+        font-size: 3rem;
+    }
+
+    .care_patient h2{
+        font-size: 2.5rem;
+    }
+
+    .sale{
+        margin-top: 122vh;
+        height: 57vh;
+        margin-bottom: 20vh;
+    }
+
+    .rectangle{
+        height: 57vh;
+    }
+
+    .edit_phone::placeholder{
+        font-size: 2rem;
+    }
+
+    .rectangle button{
+        width: 42vh;
+        font-size: 1.125rem;
+    }
+
+    .rectangle h4{
+        font-size: 0.875rem;
+    }
+
+    .treatment_with_us{
+        padding-bottom: 55vh;
+    }
+
+    .dentist{
+        height: 94vh;
+    }
+
+    .dentist h1{
+        font-size: 3.25rem;
+    }
+
+    .dentist .logo p{
+        padding-left: 0.7vh;
+        padding-top: 0.7vh;
+        font-size: 2rem;
+    }
+
+    .about_p{
+        font-size: 2rem;
+        line-height: 4.98vh;
+        padding-bottom: 8.2vh;
+    }
+
+    .dentist h3{
+        font-size: 2rem;
+    }
+
+    .list_services{
+        width: 56vh;
+    }
+
+    .list_services p{
+        font-size: 2rem;
+    }
+
+    .list_services_1{
+        padding:0;
+        padding-bottom: 1.4vh;
+    }
+
+    .list_services_2{
+        padding:0;
+        padding-bottom: 8.2vh;
+    }
+
+    .p{
+        font-size: 2rem;
+    }
+
+    .partners{
+        width: 63vh;
+    }
+
+    .partners img{
+        height: 8.4vh;
+    }
+
+    .dentist button{
+        width: 7vh;
+        height: 7vh;
+        font-size: 3.25rem;
+        margin-top: 18.1vh;
+    }
+
+    .specialists h1{
+        font-size: 3rem;
+        padding-bottom: 1.9vh;
+    }
+
+    .specialists{
+        font-size: 2rem;
+        padding-bottom: 10.2vh;
+    }
+
+    .persons{
+        grid-gap: 8.3vh;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .specialist{
+        height: 63vh;
+        width: 100%;
+    }
+
+    .specialist img{
+        height: 66vh;
+        background-size:100%;
+    }
+
+    .woman{
+        height: 63vh;
+        width: 100%;
+    }
+
+    .hhh{
+        transform: translateY(-270px);
+    }
+    
+    .hh{
+        transform:translateX(210px) translateY(-13px);
+    }
+
+    .man{
+        transform: translateX(160px);
+    }
+
+    .sertificates{
+        padding-bottom: 31.2vh;
+        padding-top: 25.9vh;
+    }
+
+    .sertificates h1{
+        font-size: 3rem;
+    }
+
+    .list_sertificates button {
+        width: 7vh;
+        height: 7vh;
+        font-size: 3.25rem;
+    }
+
+    .consultation{
+        height: 79vh;
+    }
+
+    .rectangle_consultation{
+        height: 79vh;
+    }
+    
+    .rectangle_consultation button{
+        width: 42vh;
+        font-size: 2.5rem;
+    }
+
+    .rectangle_consultation h4{
+        font-size: 2.5rem;
+    }
+
+    .rectangle_consultation h3{
+        font-size: 1.9rem;
+    }
+
+    .rectangle_consultation h1{
+        font-size: 3.5rem;
+    }
+
+    footer{
+        height: 18.9vh;
+    }
+
+    .footer{
+        padding-top: 8.5vh;
+    }
+
+    .coolicon{
+        margin-left: 2vh;
+    }
+
+    .footer p{
+        width: 65.1vh;
+    }
+
+    .footer h4{
+        width: 35.2vh;
+    }
+}
